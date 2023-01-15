@@ -53,16 +53,28 @@ const About = () => {
           <Stack direction="row" gap="40px;">
             <Typography variant="h4">
               Repository <br />
-              <a href="#" target="__blank" className="about-link">
+              <a
+                href="https://github.com/franklinnnn/fitness-app"
+                target="__blank"
+                className="about-link"
+              >
                 <GitHub fontSize="large" />
               </a>
             </Typography>
             <Typography variant="h4">
               Get in touch <br />
-              <a href="#" target="__blank" className="about-link">
+              <a
+                href="https://twitter.com/franklin_assa"
+                target="__blank"
+                className="about-link"
+              >
                 <Twitter fontSize="large" />
               </a>{" "}
-              <a href="#" target="__blank" className="about-link">
+              <a
+                href="mailto: franklin.assa@gmail.com"
+                target="__blank"
+                className="about-link"
+              >
                 <Email fontSize="large" />
               </a>
             </Typography>

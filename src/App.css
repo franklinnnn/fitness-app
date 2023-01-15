@@ -185,6 +185,7 @@ body {
 
 .footer-link {
   color: #fff;
+  text-decoration: none;
 }
 .footer-link:hover {
   color: #95e06c;

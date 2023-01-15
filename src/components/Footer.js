@@ -63,11 +63,15 @@ const Footer = () => {
             About
           </Typography>
         </Link>
-        <Link to="" style={{ textDecoration: "none" }} className="footer-link">
+        <a
+          href="https://github.com/franklinnnn/fitness-app"
+          target="__blank"
+          className="footer-link"
+        >
           <Typography variant="h6" pb="20px" mt="20px">
             GitHub
           </Typography>
-        </Link>
+        </a>
         <Typography
           variant="h6"
           pb="20px"
